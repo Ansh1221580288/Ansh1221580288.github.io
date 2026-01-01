@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Signup Clone</title>
+    <style>
+        /* 1. Basic Page Setup */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* 2. The White Form Container */
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 500px;
+        }
+
+        h2 {
+            color: #2e2e2e;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        /* 3. Grid Layout for two columns */
+        .input-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            gap: 15px; /* Space between inputs */
+            margin-bottom: 15px;
+        }
+
+        /* 4. Styling Input Fields & Select Boxes */
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Keeps padding inside the width */
+            font-size: 14px;
+        }
+
+        .full-width {
+            grid-column: span 2; /* Makes an input take both columns */
+        }
+
+        /* 5. Text and Links */
+        .notice {
+            font-size: 12px;
+            color: #666;
+            margin: 20px 0;
+            line-height: 1.4;
+        }
+
+        .checkbox-section {
+            display: flex;
+            align-items: flex-start;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        .checkbox-section input {
+            width: auto;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        /* 6. The Blue Button */
+        .signup-btn {
+            background-color: #00a1e0;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .signup-btn:hover {
+            background-color: #0077b5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Sign up and get Salesforce for free.</h2>
+
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Job title">
+                <input type="email" placeholder="Work email">
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Company">
+                <select>
+                    <option value="" disabled selected>Employees</option>
+                    <option value="1-20">1 - 20 employees</option>
+                    <option value="21-200">21 - 200 employees</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <input type="tel" placeholder="Phone">
+                <select>
+                    <option value="India">India</option>
+                    <option value="USA">United States</option>
+                    <option value="UK">United Kingdom</option>
+                </select>
+            </div>
+
+            <p class="notice">
+                Your free trial may be provisioned on or migrated to Hyperforce, Salesforce's public cloud infrastructure.
+                <br><br>
+                We value your privacy. To learn more, visit our <a href="#">Privacy Statement</a>.
+            </p>
+
+            <div class="checkbox-section">
+                <input type="checkbox" id="agree">
+                <label for="agree">
+                    I agree to the <a href="#">Main Services Agreement</a> and the <a href="#">Slack User Terms of Service</a>.
+                </label>
+            </div>
+
+            <button type="submit" class="signup-btn">SIGN UP FOR FREE</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentforce Search Box</title>
+    <style>
+        /* 1. Basic Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        /* 2. Main Container */
+        .search-container {
+            width: 500px;
+            background: white;
+            border: 2px solid #7c4dff; /* Purple border from the image */
+            border-radius: 15px;
+            overflow: hidden; /* Keeps the corners rounded */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* 3. The Input Section */
+        .search-header {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .search-icon {
+            color: #7c4dff;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+            font-size: 18px;
+            width: 100%;
+            color: #333;
+        }
+
+        /* 4. The Dropdown List */
+        .suggestions-list {
+            list-style: none;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        .suggestion-item {
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.2s;
+            color: #444;
+            font-size: 16px;
+        }
+
+        /* Hover effect for items */
+        .suggestion-item:hover {
+            background-color: #f0f0ff;
+        }
+
+        /* The sparkle icon style */
+        .sparkle {
+            margin-right: 12px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <div class="search-header">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="Ask Agentforce anything">
+        </div>
+
+        <ul class="suggestions-list">
+            <li class="suggestion-item">
+                <span class="sparkle">✨</span> Connect me with a sales rep
+            </li>
+            <li class="suggestion-item">
+                <span class="sparkle">✨</span> Show me an Agentforce demo
+            </li>
+            <li class="suggestion-item">
+                <span class="sparkle">✨</span> How can Salesforce help my business
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

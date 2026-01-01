@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salesforce Login</title>
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        .logo { width: 160px; margin-bottom: 20px; }
+
+        .card {
+            background: white;
+            padding: 30px;
+            width: 380px;
+            border: 1px solid #d8dde6;
+            border-radius: 5px;
+        }
+
+        .input-box { margin-bottom: 15px; }
+        
+        label { color: #706e6b; font-size: 13px; display: block; margin-bottom: 5px; }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #dddbda;
+            border-radius: 4px;
+            box-sizing: border-box; /* keeps padding inside width */
+        }
+
+        .btn {
+            width: 100%;
+            background: #0070d2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+
+        a { color: #0070d2; text-decoration: none; }
+
+        .divider {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            line-height: 0.1em;
+            margin: 30px 0;
+            color: #706e6b;
+        }
+        
+        .divider span { background:#fff; padding:0 10px; }
+
+        .footer { margin-top: 30px; font-size: 13px; color: #444; }
+        
+        .btn-trial {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 8px 20px;
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg" class="logo">
+
+    <div class="card">
+        <div class="input-box">
+            <label>Username</label>
+            <input type="text">
+        </div>
+        <div class="input-box">
+            <label>Password</label>
+            <input type="password">
+        </div>
+
+        <button class="btn">Log In</button>
+
+        <div style="margin-top: 15px; font-size: 13px;">
+            <input type="checkbox"> Remember me
+        </div>
+
+        <div class="links">
+            <a href="#">Forgot Your Password?</a>
+            <a href="#">Use Custom Domain</a>
+        </div>
+
+        <div class="divider"><span>or</span></div>
+
+        <button class="btn">✉ Log In with Email</button>
+    </div>
+
+    <div class="footer">
+        Not a customer? <button class="btn-trial">Try for Free</button>
+        <p style="text-align: center; color: #706e6b; font-size: 11px; margin-top: 40px;">
+            © 2026 Salesforce, Inc. All rights reserved. | <a href="#">Privacy</a>
+        </p>
+    </div>
+
+</body>
+</html>
