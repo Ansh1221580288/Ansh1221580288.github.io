@@ -1,304 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon.com. Spend less. Smile more.</title>
-    <link rel="icon" href="./Assets/Amazon logo.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A polished, responsive Amazon-inspired storefront demo.">
+  <meta name="theme-color" content="#101820">
+  <title>Amazon Clone — Everyday, delivered</title>
+  <link rel="preload" href="assets/hero-home.png" as="image">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="page">
-        <header>
-            <div class="navbar">
-                <div class="nav-left">
-                    <img src="./Assets/nav_logo.png" class="navbar-logo">
-                    <div class="location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div class="location-text">
-                            <p class="first">Deliver to</p>
-                            <p class="second">India</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-fill">
-                    <div class="search-box">
-                        <select class="select">
-                            <option>All</option>
-                        </select>
-                        <input placeholder="Search Amazon" class="search">
-                        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-                <div class="nav-right">
-                    <div class="flag">
-                        <img src="./Assets/world.png">
-                        <div class="lang">
-                            <p>EN</p>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </div>
-                    </div>
-                    <div class="sign-in">
-                        <div class="sign-text">
-                            <p class="sign-first"> Hello, sign in</p>
-                            <p class="sign-second">Accounts & Lists</p>
-                        </div>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="return">
-                        <p class="return-first">Returns</p>
-                        <p class="return-second">& Orders</p>
-                    </div>
-                    <div class="cart">
-                        <i class="fa-solid fa-cart-arrow-down"></i>
-                        <p>Cart</p>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-main">
-                <div class=" fnav all">
-                    <i class="fa-solid fa-bars"></i>
-                    <p>All</p>
-                </div>
-                <div class="deal all">
-                    <p>Today's Deal</p>
-                </div>
-                <div class="prime all">
-                    <p>Prime Video</p>
-                </div>
-                <div class="registry all">
-                    <p>Registry</p>
-                </div>
-                <div class="gift all">
-                    <p>Gift Cards</p>
-                </div>
-                <div class="service all">
-                    <p>Customer Service</p>
-                </div>
-                <div class="sell all">
-                    <p>Sell</p>
-                </div>
-            </div>
-        </header>
-        <div class="main">
-            <div class="hero">
-                <div class="amazon-in">
-                    <p>
-                        You are on amazon.com. You can also shop on Amazon India for millions of products with fast
-                        local delivery.
-                        <a href="https://www.amazon.in" class="amazon-a">Click here to go to amazon.in</a>
-                    </p>
-                </div>
-            </div>
-            <div class="products">
-                <div class="first4">
-                    <div class="card1 card">
-                        <h2>Get your game on</h2>
-                        <img src="./Assets/card1.jpg" class="img">
-                        <p class="link"><a href="#">Shop gaming</a></p>
-                    </div>
-                    <div class="card">
-                        <h2>Shop for your home essentials</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card2-1.jpg" class="img">
-                                    <p class="image-text">Cleaning Tools</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card2-2.jpg" class="img">
-                                    <p class="image-text">Home Storage</p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card2-3.jpg" class="img">
-                                    <p class="image-text">Hoom Door</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card2-4.jpg" class="img">
-                                    <p class="image-text">Bedding</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Get more in home</a></p>
-                    </div>
-                    <div class="card">
-                        <h2>Shop fashion for less</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card3-1.jpg" class="img">
-                                    <p class="image-text">Jeans under $50</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card3-2.jpg" class="img">
-                                    <p class="image-text">Tops under $25 </p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card3-3.jpg" class="img">
-                                    <p class="image-text">Dress under $50</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card3-4.jpg" class="img">
-                                    <p class="image-text">Shoes under $50</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">See all details</a></p>
-                    </div>
-                    <div class="card4 card">
-                        <h2>New home arrival under $50</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card4-1.jpg" class="img">
-                                    <p class="image-text">Kitchen & Dining</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card4-2.jpg" class="img">
-                                    <p class="image-text">Home Improvement</p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card4-3.jpg" class="img">
-                                    <p class="image-text">Decoration</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card4-4.jpg" class="img">
-                                    <p class="image-text">Bedding & Bath</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Shop the latest from home</a></p>
-                    </div>
-                </div>
-                <div class="second4">
-                    <div class="card5 card">
-                        <h2>Top categories in kitchen appliances</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card5-1.jpg" class="img">
-                                    <p class="image-text">Cooker</p>
-                                </div>
+  <a class="skip-link" href="#products">Skip to products</a>
 
-                            </div>
-                            <div class="image3-4">
-                                <div class="image2">
-                                    <img src="./Assets/card5-2.jpg" class="img">
-                                    <p class="image-text">Coffee</p>
-                                </div>
-                                <div class="image3">
-                                    <img src="./Assets/card5-3.jpg" class="img">
-                                    <p class="image-text">Pots and pans</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card5-4.jpg" class="img">
-                                    <p class="image-text">Kettles</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Explore all products in kitchen</a></p>
-                    </div>
-                    <div class="card">
-                        <h2>Fashion trends you like</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card6-1.jpg" class="img">
-                                    <p class="image-text">Dresses</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card6-2.jpg" class="img">
-                                    <p class="image-text">Knits</p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card6-3.jpg" class="img">
-                                    <p class="image-text">Jackets</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card6-4.jpg" class="img">
-                                    <p class="image-text">Jewelry</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Explore more</a></p>
-                    </div>
-                    <div class="card7 card">
-                        <h2>Home upgrades under $50</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card7-1.jpg" class="img">
-                                    <p class="image-text">Dinnerware</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card7-2.jpg" class="img">
-                                    <p class="image-text">Home Decore</p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card7-3.jpg" class="img">
-                                    <p class="image-text">Kitchen</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card7-4.jpg" class="img">
-                                    <p class="image-text">Storage</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Score new Year details</a></p>
-                    </div>
-                    <div class=" card8 card">
-                        <h2>Easy updates for elevated spaces</h2>
-                        <div class="images">
-                            <div class="image1-2">
-                                <div class="image1">
-                                    <img src="./Assets/card8-1.jpg" class="img">
-                                    <p class="image-text">Basket & hampers</p>
-                                </div>
-                                <div class="image2">
-                                    <img src="./Assets/card8-2.jpg" class="img">
-                                    <p class="image-text">Hardware</p>
-                                </div>
-                            </div>
-                            <div class="image3-4">
-                                <div class="image3">
-                                    <img src="./Assets/card8-3.jpg" class="img">
-                                    <p class="image-text">Accent furniture</p>
-                                </div>
-                                <div class="image4">
-                                    <img src="./Assets/card8-4.jpg" class="img">
-                                    <p class="image-text">Wallpaer paint </p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="link"><a href="#">Shop home products</a></p>
-                    </div>
-                    <div class="space">
+  <header class="site-header">
+    <div class="topbar shell">
+      <button class="icon-button mobile-menu-button" id="mobileMenuButton" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primaryNav">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+      <a class="brand" href="#" aria-label="Amazon Clone home">
+        <span>amazon</span><i aria-hidden="true">clone</i>
+      </a>
+
+      <button class="location-button desktop-only" id="locationButton" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><small>Delivering to</small><strong id="deliveryLocation">Ghaziabad 201009</strong></span>
+      </button>
+
+      <form class="search" id="searchForm" role="search">
+        <label class="sr-only" for="categorySelect">Product category</label>
+        <select id="categorySelect" aria-label="Product category">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="home">Home</option>
+        </select>
+        <label class="sr-only" for="searchInput">Search products</label>
+        <input id="searchInput" type="search" placeholder="Search products" autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+      </form>
+
+      <nav class="account-nav" aria-label="Account links">
+        <button class="account-link desktop-only" type="button" data-demo="Sign-in">
+          <small>Hello, sign in</small><strong>Account & Lists</strong>
+        </button>
+        <button class="account-link desktop-only" type="button" data-demo="Orders">
+          <small>Returns</small><strong>& Orders</strong>
+        </button>
+        <button class="icon-button theme-button" id="themeButton" type="button" aria-label="Switch to dark theme">
+          <svg class="moon-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 15.2A8.5 8.5 0 0 1 8.8 4a8.5 8.5 0 1 0 11.2 11.2Z"/></svg>
+          <svg class="sun-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+        <button class="cart-button" id="cartButton" type="button" aria-label="Open shopping cart, 0 items" aria-haspopup="dialog">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.1 10.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L20 8H7"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+          <span id="cartCount">0</span><strong>Cart</strong>
+        </button>
+      </nav>
     </div>
-</body>
 
+    <nav class="category-nav" id="primaryNav" aria-label="Primary navigation">
+      <div class="shell category-nav-inner">
+        <button type="button" data-category-link="all">All products</button>
+        <button type="button" data-category-link="electronics">Electronics</button>
+        <button type="button" data-category-link="fashion">Fashion</button>
+        <button type="button" data-category-link="home">Home & Living</button>
+        <button type="button" data-demo="Deals">Today's Deals</button>
+        <button type="button" data-demo="Customer service">Customer Service</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="shell hero-content">
+        <p class="eyebrow">The home refresh event</p>
+        <h1 id="heroTitle">Small changes.<br>Beautiful living.</h1>
+        <p>Curated everyday pieces for calmer, warmer spaces, delivered to your door.</p>
+        <button class="primary-button" type="button" data-shop-category="home">Shop home picks <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section class="benefits shell" aria-label="Shopping benefits">
+      <article><span aria-hidden="true">↗</span><div><strong>Fast delivery</strong><small>On thousands of items</small></div></article>
+      <article><span aria-hidden="true">✓</span><div><strong>Easy returns</strong><small>Hassle-free within 30 days</small></div></article>
+      <article><span aria-hidden="true">₹</span><div><strong>Secure payments</strong><small>Protected at every step</small></div></article>
+    </section>
+
+    <section class="catalog shell" id="products" aria-labelledby="productsTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">Handpicked for you</p><h2 id="productsTitle">Popular right now</h2></div>
+        <p id="resultsSummary" role="status" aria-live="polite">8 products</p>
+      </div>
+
+      <div class="catalog-toolbar">
+        <div class="filter-list" id="filterList" aria-label="Filter products">
+          <button class="filter-button active" type="button" data-category="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-category="electronics" aria-pressed="false">Electronics</button>
+          <button class="filter-button" type="button" data-category="fashion" aria-pressed="false">Fashion</button>
+          <button class="filter-button" type="button" data-category="home" aria-pressed="false">Home & Living</button>
+        </div>
+        <label class="sort-control">Sort by
+          <select id="sortSelect">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="rating">Customer rating</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="product-grid" id="productContainer"></div>
+      <div class="empty-results" id="emptyResults" hidden>
+        <span aria-hidden="true">⌕</span><h3>No products found</h3><p>Try another search or clear your filters.</p>
+        <button class="secondary-button" id="clearFiltersButton" type="button">Clear filters</button>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="shell newsletter-inner">
+        <div><p class="eyebrow">Good finds, no noise</p><h2>Deals worth opening your inbox for.</h2></div>
+        <form id="newsletterForm"><label class="sr-only" for="emailInput">Email address</label><input id="emailInput" type="email" placeholder="you@example.com" required><button class="primary-button" type="submit">Keep me posted</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <button class="back-to-top" id="backToTop" type="button">Back to top <span aria-hidden="true">↑</span></button>
+    <div class="footer-content shell">
+      <a class="brand footer-brand" href="#"><span>amazon</span><i>clone</i></a>
+      <div><h3>Shop</h3><button type="button" data-category-link="electronics">Electronics</button><button type="button" data-category-link="fashion">Fashion</button><button type="button" data-category-link="home">Home & Living</button></div>
+      <div><h3>Help</h3><button type="button" data-demo="Your account">Your Account</button><button type="button" data-demo="Returns">Returns Centre</button><button type="button" data-demo="Support">Customer Support</button></div>
+      <div><h3>About this project</h3><p>A responsive storefront concept built for learning. Product names and prices are fictional.</p></div>
+    </div>
+    <p class="legal">© <span id="currentYear"></span> Amazon Clone. Educational project; not affiliated with Amazon.</p>
+  </footer>
+
+  <div class="page-overlay" id="pageOverlay" hidden></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-modal="true" role="dialog" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow">Your basket</p><h2 id="cartTitle">Shopping cart</h2></div><button class="close-button" id="closeCartButton" type="button" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div><span>Subtotal</span><strong id="cartTotal">₹0</strong></div>
+      <p>Shipping and taxes calculated at checkout.</p>
+      <button class="checkout-button" id="checkoutButton" type="button">Proceed to checkout</button>
+    </div>
+  </aside>
+
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+    <button class="close-button dialog-close" id="closeDialogButton" type="button" aria-label="Close product details">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <dialog class="location-dialog" id="locationDialog" aria-labelledby="locationTitle">
+    <form method="dialog" id="locationForm">
+      <div class="dialog-title-row"><div><p class="eyebrow">Delivery area</p><h2 id="locationTitle">Choose your location</h2></div><button class="close-button" id="closeLocationButton" type="button" aria-label="Close location dialog">×</button></div>
+      <p>Enter a 6-digit Indian PIN code to update delivery estimates.</p>
+      <label for="pinCodeInput">PIN code</label>
+      <input id="pinCodeInput" name="pinCode" inputmode="numeric" pattern="[1-9][0-9]{5}" maxlength="6" placeholder="201009" required>
+      <button class="primary-button" value="default">Update location</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <button class="floating-top" id="floatingTop" type="button" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
 </html>
